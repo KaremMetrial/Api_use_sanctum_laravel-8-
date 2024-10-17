@@ -6,7 +6,7 @@ This project demonstrates how to build an API using Laravel 8 and Sanctum for to
 
 - PHP 7.4+
 - Composer
-- MySQL or any other database
+- MySQL or SQLite or any other database
 - Laravel 8
 
 ## Installation
