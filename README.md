@@ -15,8 +15,10 @@ This project demonstrates how to build an API using Laravel 8 and Sanctum for to
    ```bash
    git clone https://github.com/KaremMetrial/Api_use_sanctum_laravel-8-
    cd Api_use_sanctum_laravel-8-
+   composer install
+   cp .env.example .env
+   php artisan migrate
+   php artisan serve
 
-composer install
-cp .env.example .env
-php artisan migrate
-php artisan serve
+
+
